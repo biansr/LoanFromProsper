@@ -8,13 +8,8 @@ This dataset is a record of loans from Prosper from 2007 to 2014, It records 113
 
 ## Findings
 
-1. Distribution of variables
-Borrower's APR and interest rate follow a similar distribution, which is slightly bimodal. The mean APR is 0.22 and the mean interest is 0.19.   
-We define good loans as loans with status of completed, current, or finalpaymentinprogress, and bad loans as loans with status of chargedoff or defaulted. Thus, 85% of total loans are good loans, 10% are bad loans. The rest of loans are pastdue.   
-96% borrowers have a jod, of which most are professionals, and most of them live in California. Roughly half of the borrowers own a house.  
-Borrowers have a mean credit score between 500 and 900, with the mean as 702. Borrowers have an average credit history of 16 years.   
-The distribution of borrowers' monthly-income is strongly right skewed, with a few people having extremely high monthly-income, which does not seem likely. Median income is 4833 dollar per month.   
-The distribution of total loan amount is also right-skewed, with the median being 7000 dollar.  
+1. Distribution of variables  
+Borrower's APR and interest rate follow a similar distribution, which is slightly bimodal. The mean APR is 0.22 and the mean interest is 0.19. We define good loans as loans with status of completed, current, or finalpaymentinprogress, and bad loans as loans with status of chargedoff or defaulted. Thus, 85% of total loans are good loans, 10% are bad loans. The rest of loans are pastdue. 96% borrowers have a jod, of which most are professionals, and most of them live in California. Roughly half of the borrowers own a house. Borrowers have a mean credit score between 500 and 900, with the mean as 702. Borrowers have an average credit history of 16 years. The distribution of borrowers' monthly-income is strongly right skewed, with a few people having extremely high monthly-income, which does not seem likely. Median income is 4833 dollar per month. The distribution of total loan amount is also right-skewed, with the median being 7000 dollar.  
   
 2. Factors that affect whether a borrower pay his/her loan on time  
 We define good loans as loans whose borrowers pay on time. These are loans with status of completed, current, or finalpaymentinprogress. We define pastdue as loans whose borrowers failed to pay on time within a certain amount of time, most likely within 120 days. We define bad loans as loans whose borrowers failed to pay for an extended period of time, or loans that no longer expect further payments. These are loans with status of chargedoff or defaulted.  
